@@ -1,0 +1,22 @@
+
+> inventory-tracker-app@1.0.0 web
+> expo start --web
+
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY
+Starting project at /home/mcsmart/inventory-tracker-app
+React Compiler enabled
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+λ node_modules/expo-router/node/render.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+λ Bundled 2019ms node_modules/expo-router/node/render.js (1089 modules)
+λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents 
+Web Bundled 3504ms node_modules/expo-router/entry.js (1308 modules)
+Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (1308/1308)
+Web Bundled 678ms node_modules/expo-router/entry.js (1310 modules)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+λ Bundled 123ms node_modules/expo-router/node/render.js (1 module)
+Web Bundled 1032ms node_modules/expo-router/entry.js (1 module)

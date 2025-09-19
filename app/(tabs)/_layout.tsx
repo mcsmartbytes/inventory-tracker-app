@@ -24,10 +24,45 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="dashboard"
+        options={{
+          title: 'Dashboard',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="chart.bar.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="explore"
         options={{
           title: 'Explore',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="inventory"
+        options={{
+          title: 'Inventory',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="barcode.viewfinder" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="reconcile"
+        options={{
+          title: 'Reconcile',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="checkmark.seal.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="uploads"
+        options={{
+          title: 'Uploads',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="square.and.arrow.up.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="users"
+        options={{
+          title: 'Users',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.3.fill" color={color} />,
         }}
       />
     </Tabs>
